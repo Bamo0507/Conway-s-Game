@@ -6,7 +6,8 @@ Esta es una implementación sencilla del Juego de la Vida de Conway, para probar
 
 ```bash
 git clone git@github.com:Bamo0507/Conway-s-Game.git
-cd Conway-s-Game.git
+cd Conway-s-Game
+cd conway
 cargo add raylib
 cargo run
 ```
