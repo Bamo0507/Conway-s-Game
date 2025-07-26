@@ -1,4 +1,4 @@
-const SCALE: i32 = 6;
+const SCALE: i32 = 8;
 
 mod framebuffer;
 mod conway;
@@ -45,7 +45,6 @@ fn render(
 
     // Dibujar el framebuffer en la pantalla
     let mut d = rl.begin_drawing(thread);
-    d.clear_background(Color::WHITE);
     
     // Renderizar pixel por pixel
     for y in 0..conway::HEIGHT {
